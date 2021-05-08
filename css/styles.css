@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    color: black;
+}
+body{
+    font-size: 17px;
+    color: black;
+    background-color: chocolate;
+    font-family: 'Oxygen', sans-serif;
+    text-align: justify;
+
+}
+.navbar-brand a { 
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand {
+    padding-top: 25px; 
+    
+}
+.head{
+    background-color: cornflowerblue;
+}
+  
+.navbar-brand a:hover, .navbar-brand a:focus  {
+    text-decoration: none;
+  }
+
+  
+#nav-list > li {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+
+}
+#nav-collapse > li:hover{
+    background-color: darkgrey;
+    color: black;
+    font-size: 18px;
+}
+
+div section {
+    margin: 10px;
+    padding: 10px;
+}
+#section-1{
+    background-color: #b3fff5;
+    border: 2px ridge black;
+    border-radius: 10px;
+}
+#section1:hover{
+    color: cornflowerblue;
+}
+
+#section-2 {
+    background-color: #cab3ff;
+    border: 2px ridge black;
+    border-radius: 10px;
+}
+
+#section-3 {
+    background-color: #80a8ff;
+    border: 2px ridge black;
+    border-radius: 10px;
+    
+}
+
+#text > h3 {
+    margin-bottom: 15px;
+}
+
+#header-nav .navbar-brand {
+    position: absolute;
+    left: 10px;
+    
+}
+.navbar{
+    background-color: rgb(166, 192, 240);
+    border:1px solid rgb(166, 191, 236);
+}
